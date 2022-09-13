@@ -21,16 +21,16 @@
         <h1>Triangle Quiz</h1>
 
         <div class="input-container">
-            <label for="">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</label>
+            <label for="que01">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</label>
             <div class="radio-container">
                 <div>
-                    <input type="radio" value="45-deg" name="que01"><span>45°</span>
+                    <input type="radio" value="45-deg" id="ans01-01" name="que01"  class="que01"><span>45°</span>
                 </div>
                 <div>
-                    <input type="radio" value="90-deg" name="que01"><span>90°</span>
+                    <input type="radio" value="90-deg" id="ans01-02" name="que01" class="que01"><span>90°</span>
                 </div>
                 <div>
-                    <input type="radio" value="60-deg" name="que01"><span>60°</span>
+                    <input type="radio" value="60-deg" id="ans01-03" name="que01" class="que01"><span>60°</span>
                 </div>
             </div>
         </div>
@@ -39,13 +39,13 @@
             <label for="">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</label>
             <div class="radio-container">
                 <div>
-                    <input type="radio" value="obtuse" name="que02"><span>obtuse</span>
+                    <input type="radio" value="obtuse" id="ans02-01" name="que02" class="que02"><span>obtuse</span>
                 </div>
                 <div>
-                    <input type="radio" value="acute" name="que02"><span>acute</span>
+                    <input type="radio" value="acute" id="ans02-01" name="que02" class="que02"><span>acute</span>
                 </div>
                 <div>
-                    <input type="radio" value="right" name="que02"><span>right</span>
+                    <input type="radio" value="right" id="ans02-01" name="que02" class="que02"><span>right</span>
                 </div>
             </div>
         </div>
@@ -54,22 +54,27 @@
             <label for="">A triangle can have</label>
             <div class="radio-container">
                 <div>
-                    <input type="radio" value="one right angle" name="que03"><span>one right angle</span>
+                    <input type="radio" value="one right angle" id="ans03-01" name="que03" class="que03"><span>one right angle</span>
                 </div>
                 <div>
-                    <input type="radio" value="two right angle" name="que03"><span>two right angle</span>
+                    <input type="radio" value="two right angle" id="ans03-01" name="que03" class="que03"><span>two right angle</span>
                 </div>
                 <div>
-                    <input type="radio" value="three right angle" name="que03"><span>three right angle</span>
+                    <input type="radio" value="three right angle" id="ans03-01" name="que03" class="que03"><span>three right angle</span>
                 </div>
             </div>
         </div>
 
-        <button type="submit">Submit Answer</button>
+        <div class="input-container">
+            <button id="quizBtn">Submit Answer</button>
+        </div>
+        
+
+        <div id="quizOutput"></div>
     </section>
 
     <footer></footer>
 
-    <script src="./script.js"></script>
+    <script src="./quiz.js"></script>
 </body>
 </html>
