@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Triangle Quiz App</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Is Triangle</a>
+            <a href="./triangle-quiz.html">Triangle Quiz</a>
+            <a href="./hypo.html">Calc Hypotenuse</a>
+            <a href="./area.html">Calc Area</a>
+        </nav>
+    </header>
+
+    <section id="quizOne">
+        <h1>Triangle Quiz</h1>
+
+        <div class="input-container">
+            <label for="">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</label>
+            <div class="radio-container">
+                <div>
+                    <input type="radio" value="45-deg" name="que01"><span>45°</span>
+                </div>
+                <div>
+                    <input type="radio" value="90-deg" name="que01"><span>90°</span>
+                </div>
+                <div>
+                    <input type="radio" value="60-deg" name="que01"><span>60°</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="input-container">
+            <label for="">What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</label>
+            <div class="radio-container">
+                <div>
+                    <input type="radio" value="obtuse" name="que02"><span>obtuse</span>
+                </div>
+                <div>
+                    <input type="radio" value="acute" name="que02"><span>acute</span>
+                </div>
+                <div>
+                    <input type="radio" value="right" name="que02"><span>right</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="input-container">
+            <label for="">A triangle can have</label>
+            <div class="radio-container">
+                <div>
+                    <input type="radio" value="one right angle" name="que03"><span>one right angle</span>
+                </div>
+                <div>
+                    <input type="radio" value="two right angle" name="que03"><span>two right angle</span>
+                </div>
+                <div>
+                    <input type="radio" value="three right angle" name="que03"><span>three right angle</span>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit">Submit Answer</button>
+    </section>
+
+    <footer></footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
